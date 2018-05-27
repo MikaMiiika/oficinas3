@@ -25,10 +25,10 @@ from .usersAPI import *
 
 
 class hello(Resource):
-    def post(self):
+    def get(self):
         return "Hello World!"
 
-api.add_resource(hello, "/")
+api.add_resource(hello, '/')
 api.add_resource(UsersAPI, '/api/users')
 api.add_resource(UserAPI, '/api/users/<user_id>')
 api.add_resource(UserFieldAPI, '/api/users/<user_id>/<field>')
