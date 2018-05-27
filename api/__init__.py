@@ -26,11 +26,11 @@ from .usersAPI import *
 
 class hello(Resource):
     def get(self):
-        return "Hello World!"
+        return "Mika linda <3"
 
 class index(Resource):
     def get(self):
-        return "Hello World!"
+        return "Por favor funciona."
 
 api.add_resource(hello, '/')
 api.add_resource(index, '/index')
