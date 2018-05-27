@@ -16,6 +16,7 @@ def insert(collectionName, **fields):
 
     return str(id)
 
+
 def select(collectionName):
     collection = mongo.db[collectionName]
 

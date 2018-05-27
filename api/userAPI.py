@@ -9,9 +9,4 @@ class UserAPI(Resource):
     def get(self, user_id):
         json = selectUser(_id=user_id)
         user = User()
-
-        try:
-            user = user.load(json)
-        except ValidationError as e:
-            return e.messages
-        return user
+        user = user.load(json)

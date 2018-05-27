@@ -1,5 +1,5 @@
 from flask import request
-from flask_restful import Resource, reqparse
+from flask_restful import Resource, abort
 from pomodb import *
 from utils import timestamp as t
 
@@ -20,12 +20,10 @@ class UsersAPI(Resource):
     def post(self):
         json = request.get_json()
         user = User()
-
         try:
             user = user.load(json)
-            insert('users', **user)
-        except errors.DuplicateKeyError as e:
-            return e
         except ValidationError as e:
-            return e.messages
-        return user
+            abort(404, message='These fields are wrong: ' + str(e))
+        except errors.DuplicateKeyError:
+            abort(404, message='User already exists')
+        return user['_id']

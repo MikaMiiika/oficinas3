@@ -1,0 +1,6 @@
+gunicorn
+Flask
+flask_restful
+flask_httpauth
+flask_pymongo
+SpeechRecognition
