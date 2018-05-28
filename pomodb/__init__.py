@@ -1,5 +1,5 @@
 from flask_pymongo import PyMongo
-from flask_mongo_sessions import MongoDBSessionInterface
+#from flask_mongo_sessions import MongoDBSessionInterface
 
 from api import *
 
