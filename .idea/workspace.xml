@@ -11,7 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Pomodoro$speech.coverage" NAME="speech Coverage Results" MODIFIED="1525493508884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testes" />
-    <SUITE FILE_PATH="coverage/Pomodoro$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1527476807403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pomodoro$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1527479069756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pomodoro$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1527452831054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pomodoro$teste.coverage" NAME="teste Coverage Results" MODIFIED="1525496896273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pomodoro$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1525811125236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="usersAPI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/usersAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="361">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -54,21 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userFieldAPI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/userFieldAPI.py">
+      <file leaf-file-name="act1" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/act1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pomodb/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -120,27 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pomodb/general.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#91#376#0" expanded="false" />
-                <element signature="e#411#591#0" expanded="false" />
-                <element signature="e#643#836#0" expanded="false" />
-                <element signature="e#881#964#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="schemas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pomodb/schemas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="17">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -160,7 +144,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response43.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response86.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -214,8 +198,8 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/api/__init__.py" />
         <option value="$PROJECT_DIR$/.s2i/environment" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/pomodb/__init__.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -273,6 +257,11 @@
               <item name="Pomodoro" type="462c0819:PsiDirectoryNode" />
               <item name="speech" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Pomodoro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pomodoro" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -298,6 +287,530 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:5000" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="started" />
+                <option name="value" value="2018/05/01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ended" />
+                <option name="value" value="2018/05/30" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="started" />
+                <option name="value" value="2018/05/01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ended" />
+                <option name="value" value="2018/05/30" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;, &quot;flaha&quot;: &quot;hasdjksahdk&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="started" />
+                <option name="value" value="2018/05/01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ended" />
+                <option name="value" value="2018/05/30" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+          <option name="urlPath" value="index" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="started" />
+                <option name="value" value="2018/05/01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ended" />
+                <option name="value" value="2018/05/30" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;_id&quot;: &quot;brendon&quot;, &quot;password&quot;: &quot;brendon&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-python-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="81b07d656f86dcdf3e01daf774667d66" />
+                <option name="path" value="/" />
+                <option name="value" value="800ee492b1772bfe91ebab0f6300bf36" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+                <option name="name" value="c6e481663bc01880afa0260fc29abb06" />
+                <option name="path" value="/" />
+                <option name="value" value="47d64735258d60c96b691fd3f57dec8f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://smartpomodoro-backend-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com" />
+          <option name="urlPath" value="/api/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bWlrYTptaWth" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="started" />
+                <option name="value" value="2018/05/01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ended" />
+                <option name="value" value="2018/05/30" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{ &quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018-04-18 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-04-18 17:10:00&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -1760,300 +2273,6 @@
           <option name="textToSend" value="{ &quot;_id&quot;: &quot;mika&quot;, &quot;password&quot;: &quot;mika1234&quot;, &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018/04/18 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018/04/18 17:10:00&quot; }" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/users" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{ &quot;_id&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018/04/18 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018/04/18 17:10:00&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="started" />
-                <option name="value" value="2018-04-01" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="ended" />
-                <option name="value" value="2018-04-30" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;cafe&quot;,  &quot;timeStarted&quot;: &quot;2018-04-19 12:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-04-19 14:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="started" />
-                <option name="value" value="2018-04-01" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="ended" />
-                <option name="value" value="2018-04-30" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;cafe&quot;,  &quot;timeStarted&quot;: &quot;2018-04-19 12:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-04-19 14:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="started" />
-                <option name="value" value="2018-04-01" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="ended" />
-                <option name="value" value="2018-04-30" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;cafe&quot;,  &quot;timeStarted&quot;: &quot;2018-04-19 12:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-04-19 14:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="started" />
-                <option name="value" value="2018-04-01" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="ended" />
-                <option name="value" value="2018-04-30" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018-04-19 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-04-19 17:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018-04-19 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-04-19 17:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018-04-18 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-04-18 17:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveFileToSend" value="true" />
-          <option name="isFileUpload" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018-05-18 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-05-18 17:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018-05-18 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-05-18 17:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:5000" />
-          <option name="urlPath" value="/api/activity" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{&quot;userID&quot;: &quot;mika&quot;,  &quot;name&quot;: &quot;Prog&quot;,  &quot;timeStarted&quot;: &quot;2018-05-18 15:30:00&quot;,  &quot;timeEnded&quot;: &quot;2018-05-18 17:10:00&quot;}" />
-          <option name="filesToSend" value="$PROJECT_DIR$/test/act1" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -2238,11 +2457,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3709273" sideWeight="0.50651467" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4187192" sideWeight="0.5972644" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2594417" sideWeight="0.3723404" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.4956569" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4187192" sideWeight="0.40273556" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.7066869" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3218391" sideWeight="0.4924012" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4187192" sideWeight="0.22264437" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2594417" sideWeight="0.62765956" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21732523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2410,14 +2629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/act1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documentacao/howto.ods">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2491,41 +2702,12 @@
         <state relative-caret-position="187">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
             <element signature="e#91#376#0" expanded="false" />
             <element signature="e#411#591#0" expanded="false" />
             <element signature="e#643#836#0" expanded="false" />
             <element signature="e#881#964#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pomodb/schemas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pomodb/users.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#112#272#0" expanded="false" />
-            <element signature="e#307#359#0" expanded="false" />
-            <element signature="e#402#443#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2549,24 +2731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/usersAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/userFieldAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
@@ -2575,13 +2739,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pomodb/__init__.py">
+    <entry file="file://$PROJECT_DIR$/test/act1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/userFieldAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodb/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#112#272#0" expanded="false" />
+            <element signature="e#307#359#0" expanded="false" />
+            <element signature="e#402#443#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodb/schemas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/usersAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
