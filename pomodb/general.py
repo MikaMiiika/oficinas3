@@ -38,7 +38,7 @@ def updateOne(collectionName, id, **fields):
     else:
         return "Document not found"
 
-
+d
 def exists(collectionName, **fields):
     collection = mongo.db[collectionName]
 
