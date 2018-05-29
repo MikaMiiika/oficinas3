@@ -3,7 +3,8 @@ from flask_pymongo import PyMongo
 import os
 from api import *
 
-app.config['MONGO_URI'] = os.environ['OPENSHIFT_MONGODB_DB_URL']
+app.config['MONGO_DBNAME'] = 'smartdb'
+app.config['MONGO_URI'] = 'mongodb://smart:admin@%s:27017/smartdb' % (os.environ['OPENSHIFT_MONGODB_DB_HOST'])
 
 #app.config['MONGO_URI'] = 'mongodb://smart:admin@localhost:27017/smartdb'
 
