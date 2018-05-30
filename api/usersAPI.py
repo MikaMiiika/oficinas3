@@ -22,6 +22,7 @@ class UsersAPI(Resource):
         user = User()
         try:
             user = user.load(json)
+            insert('users', **user)
         except ValidationError as e:
             abort(404, message='These fields are wrong: ' + str(e))
         except errors.DuplicateKeyError:

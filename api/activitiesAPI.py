@@ -24,7 +24,7 @@ class ActivitiesAPI(Resource):
 
         try:
             act = act.load(json)
-            insert('users', **act)
+            insert('activities', **act)
         except ValidationError as e:
             abort(404, message='These fields are wrong: ' + str(e))
         except errors.DuplicateKeyError:
