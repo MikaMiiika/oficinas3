@@ -4,8 +4,7 @@ import os
 from api import *
 
 app.config['MONGO_DBNAME'] = 'smartdb'
-app.config['MONGO_URI'] = 'mongodb://smart:admin@%s:27017/smartdb' % (os.environ['MONGODB_34_RHEL7_SERVICE_HOST'])
-
+app.config['MONGO_URI'] = 'mongodb://smart:admin@mongodb-34-rhel7:27017/smartdb'
 #app.config['MONGO_URI'] = 'mongodb://smart:admin@localhost:27017/smartdb'
 
 mongo = PyMongo(app)
