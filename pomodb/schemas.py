@@ -26,7 +26,11 @@ class Activity(Schema):
     name = fields.Str(required=True)
     timeStarted = fields.Str(required=True)
     timeEnded = fields.Str(required=True)
-    timeSpent = fields.Str()
+
+    timeStartedInt = fields.Int()
+    timeEndedInt = fields.Int()
+
+    timeSpent = fields.Int()
 
     @validates_schema(pass_original=True)
     def check_unknown_fields(self, data, original_data):
@@ -36,10 +40,8 @@ class Activity(Schema):
 
     @post_load
     def fixTimes(self, item):
-        item['timeStarted'] = timeToTimestamp(item['timeStarted'])
-        item['timeEnded'] = timeToTimestamp(item['timeEnded'])
-        item['timeSpent'] = str(item['timeEnded'] - item['timeStarted'])
-        item['timeStarted'] = str(item['timeStarted'])
-        item['timeEnded'] = str(item['timeEnded'])
+        item['timeStartedInt'] = timeToTimestamp(item['timeStarted'])
+        item['timeEndedInt'] = timeToTimestamp(item['timeEnded'])
+        item['timeSpent'] = item['timeEnded'] - item['timeStarted']
         return item
 

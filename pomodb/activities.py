@@ -2,19 +2,26 @@ from pomodb import *
 from utils import timestamp as t
 from operator import itemgetter
 
-def getActivityTime(userID, name, start, ended):
+def getActivityTime(userID, name, start, end):
     activities = mongo.db.activities
-    start = t.timeToTimestamp(start)
-    ended = t.timeToTimestamp(ended)
 
-    if exists(name):
-        cur = activities.aggregate([{'$match': {'name': name,
-                                                'userID': userID,
-                                                'timeStarted': {'$gt': start},
-                                                'timeEnded': {'$lt': ended}}},
-                                    {'$group': {'_id': '$name',
-                                                'sum': {'$sum': '$timeSpent'}}}])
+    if exists('activities', name=name):
+        if (start != "ALL") or (end != "ALL"):
+            start = t.timeToTimestamp(start)
+            end = t.timeToTimestamp(end)
 
+            cur = activities.aggregate([{'$match': {'name': name,
+                                                    'userID': userID,
+                                                    'timeStarted': {'$gt': start},
+                                                    'timeEnded': {'$lt': end}}},
+                                        {'$group': {'_id': '$name',
+                                                    'sum': {'$sum': '$timeSpent'}}}])
+        else:
+            print('here')
+            cur = activities.aggregate([{'$match': {'name': name,
+                                                    'userID': userID}},
+                                        {'$group': {'_id': '$name',
+                                                    'sum': {'$sum': '$timeSpent'}}}])
         for doc in cur:
             return doc
 
@@ -22,7 +29,7 @@ def getActivityTime(userID, name, start, ended):
 def getActivitiesTime(userID, start, end):
     activities = mongo.db.activities
     activitiesName = activities.distinct('name')
-
+    print(activitiesName)
     actList = []
 
     for a in activitiesName:

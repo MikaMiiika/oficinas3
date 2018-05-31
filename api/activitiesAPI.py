@@ -12,15 +12,23 @@ class ActivitiesAPI(Resource):
     def get(self):
         userID = g.user['_id']
         started = request.args.get('started')
-        started = started + " 00:00:00"
+        if started is not None:
+            started = started + " 00:00:00"
+        else:
+            started = "ALL"
+
         ended = request.args.get('ended')
-        ended = ended + " 00:00:00"
+        if ended is not None:
+            ended = ended + " 00:00:00"
+        else:
+            ended = "ALL"
         return getActivitiesTime(userID, started, ended)
 
     def post(self):
         json = request.get_json()
         print(json)
         act = Activity()
+        json['userID'] = g.user['_id']
 
         try:
             act = act.load(json)
