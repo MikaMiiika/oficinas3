@@ -1,6 +1,7 @@
 import speech_recognition as sr
+import unidecode
 
-def ConvertSpeech(speech, language):
+def ConvertSpeech(speech, language="pt-BR"):
     recognizer = sr.Recognizer()
     source = sr.AudioFile(speech)
     with source as s:
@@ -10,6 +11,6 @@ def ConvertSpeech(speech, language):
     try:
         text = recognizer.recognize_google(audio, language=language)
     except sr.UnknownValueError:
-        print("Couldnt recognize")
+        text = "Não entendi"
 
-    return text
+    return unidecode.unidecode(text)

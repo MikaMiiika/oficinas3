@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from api import app as application
 
 if __name__ == '__main__':

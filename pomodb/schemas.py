@@ -20,6 +20,12 @@ class User(Schema):
         item['password'] = pwd_context.encrypt(item['password'])
         return item
 
+    @post_load
+    def fillFaces(self, item):
+        while len(item['faces']) != 7:
+            item['faces'].append("")
+        return item
+
 class Activity(Schema):
     _id = fields.Str()
     userID = fields.Str(required=True)
