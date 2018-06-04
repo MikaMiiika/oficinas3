@@ -1,0 +1,648 @@
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+"_id": "brendon",
+"password": "brendon"
+}
+
+<> 2018-06-04T111510.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+"_id": "brendon",
+"password": "brendon"
+}
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+"_id": "brendon",
+"password": "brendon"
+}
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+"_id": "brendon",
+"password": "brendon"
+}
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+"_id": "brendon",
+"password": "brendon"
+}
+
+<> 2018-06-04T111147.500.html
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{
+"_id": "brendon",
+"password": "brendon"
+}
+
+<> 2018-06-04T110913.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+Content-body: {"_id": "brendon"}
+
+<> 2018-06-04T110749.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon"}
+
+<> 2018-06-04T110722.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon"}
+
+<> 2018-06-04T110717.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+"{"_id": "brendon"}"
+
+<> 2018-06-04T110704.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+"{"_id": "brendon"}"
+
+<> 2018-06-04T110630.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+"{"_id": "brendon"}"
+
+<> 2018-06-04T110558.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+"{"_id": "brendon"}"
+
+<> 2018-06-04T110538.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+"{"_id": "brendon"}"
+
+<> 2018-06-04T110519.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T110045.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T110027.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+"{"_id": "brendon"}"
+
+<> 2018-06-04T110014.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+Authorization: Basic bWlrYTptaWth
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T105921.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users%20{"_id":%20"brendon"}
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+'{"_id": "brendon"}'
+
+<> 2018-06-04T105719.404.json
+
+###
+
+GET http://127.0.0.1:5000/index
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon"}
+
+<> 2018-06-04T105650.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon"}
+
+<> 2018-06-04T105550.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon"}
+
+<> 2018-06-04T105349.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon"}
+
+<> 2018-06-04T105209.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon"}
+
+<> 2018-06-04T104955.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon", "password": "brendon"}
+
+<> 2018-06-04T104930.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+{"_id": "brendon", "password": "brendon"}
+
+<> 2018-06-04T104747.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+ {"_id": "cassol", "password": "oficinas3"}
+
+<> 2018-06-04T104734.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+ {"_id": "cassol", "password": "oficinas3"}
+
+<> 2018-06-04T104710.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+ {"_id": "cassol", "password": "oficinas3"}
+
+<> 2018-06-04T104603.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+ {"_id": "cassol", "password": "oficinas3", "email": "matheus_cassol@hotmail.com"}
+
+<> 2018-06-04T104536.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T104147.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T104130.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T104106.404.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users?name=love
+Accept: */*
+Cache-Control: no-cache
+Contente-type: application/json
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T104043.404.json
+
+###
+
+GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users?name=love
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T103857.200.json
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T020449.200.html
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T020432.200.html
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T020420.200.html
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T020417.200.html
+
+###
+
+GET http://db.lovenikki.world/search.html?name=love
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T020317.200.html
+
+###
+
+GET http://db.lovenikki.world/search.html
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+###
+
+GET http://db.lovenikki.world/search.html
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T020237.200.html
+
+###
+
+GET http://db.lovenikki.world/search.html
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+<> 2018-06-04T020236.200.html
+
+###
+
+GET http://db.lovenikki.world/search
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic bWlrYTptaWth
+Content-Type: multipart/form-data; boundary=boundary
+Content-Disposition: form-data; name="first"; filename="programacao.wav"
+
+--null
+
+
+< D:\_Main\Projetos\Pomodoro\test\programacao.wav
+--null--
+
+###
+

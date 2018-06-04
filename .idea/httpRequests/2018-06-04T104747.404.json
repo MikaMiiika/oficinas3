@@ -1,0 +1,3 @@
+{
+  "message": "These fields are wrong: {'_schema': ['Invalid input type.']}. You have requested this URI [/api/users] but did you mean /api/users or /api/users/<field> or /api/speech ?"
+}

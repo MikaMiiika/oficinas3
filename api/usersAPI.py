@@ -20,6 +20,7 @@ class UsersAPI(Resource):
     def post(self):
         json = request.get_json()
         user = User()
+        print(json)
         try:
             user = user.load(json)
             insert('users', **user)

@@ -1,0 +1,55 @@
+Os parametros tao so pro GET 
+O Body é pro POST
+
+###host: http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/
+
+###path:
+##basicamente inuteis
+/
+/index
+
+##usuario
+
+
+/api/users
+#GET de todos os usuarios cadastrados
+#POST de um novo usuario
+
+/api/users/<user_id>
+#GET de um user_id (string com o username)
+
+/api/userfield/<field>
+#precisa de um login (mandar usuario e senha)
+#GET do field (string, pode ser _id, password, faces, etc, etc)
+#PUT do field (so precisa mandar no request body o novo field com exceção das faces... da face você manda um json {"INT da face (0 a 6)": "Novo Nome"}
+
+##Atividades
+
+/api/activity
+#precisa do login
+#GET mandar started=DD-MM-YY e ended=DD-MM-YY (senão mandar ele retorna a base toda); Ele retorna exatamente os valores de todas as atividades entre essas duas datas (ou seja, não divide em periodos menores...)
+#POST insere uma nova atividade, mandar no body o json
+
+/api/activity/<activity_name>
+#GET mandar started=DD-MM-YY e ended=DD-MM-YY (senão mandar ele retorna a base toda); Ele retorna exatamente o valor a activity_name.
+
+
+class User(Schema):
+    _id = fields.Str(required=True)
+    password = fields.Str(required=True)
+    email = fields.Email()
+    pomoID = fields.Str()
+    faces = fields.List(fields.Str())
+
+class Activity(Schema):
+    _id = fields.Str()
+    userID = fields.Str(required=True)
+    name = fields.Str(required=True)
+    timeStarted = fields.Str(required=True)
+    timeEnded = fields.Str(required=True)
+
+    #SELF GENERATED
+	timeStartedInt = fields.Int()
+    timeEndedInt = fields.Int()
+
+    timeSpent = fields.Int()

@@ -12,7 +12,14 @@ class ActivityAPI(Resource):
     def get(self, activity_name):
         userID = g.user['_id']
         started = request.args.get('started')
-        started = started + " 00:00:00"
+        if started is not None:
+            started = started + " 00:00:00"
+        else:
+            started = "ALL"
+
         ended = request.args.get('ended')
-        ended = ended + " 00:00:00"
+        if ended is not None:
+            ended = ended + " 00:00:00"
+        else:
+            ended = "ALL"
         return getActivityTime(userID, activity_name, started, ended)

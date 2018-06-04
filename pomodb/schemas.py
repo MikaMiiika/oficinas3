@@ -22,6 +22,8 @@ class User(Schema):
 
     @post_load
     def fillFaces(self, item):
+        if 'faces' not in item:
+            item['faces'] = []
         while len(item['faces']) != 7:
             item['faces'].append("")
         return item
