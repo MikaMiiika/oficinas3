@@ -9,6 +9,13 @@ app = Flask(__name__)
 api = Api(app)
 auth = HTTPBasicAuth()
 
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
+    return response
+
 @auth.verify_password
 def verify_password(username, password):
     user = selectUser(_id=username)

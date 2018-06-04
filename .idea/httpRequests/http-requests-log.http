@@ -10,6 +10,70 @@ Authorization: Basic bWlrYTptaWth
  "timeEnded": "2018-04-18 17:10:00"
 }
 
+<> 2018-06-04T073018.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{
+ "name": "Prog",
+ "timeStarted": "2018-04-18 15:30:00",
+ "timeEnded": "2018-04-18 17:10:00"
+}
+
+<> 2018-06-04T072829.200.json
+
+###
+
+GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{
+ "name": "Prog",
+ "timeStarted": "2018-04-18 15:30:00",
+ "timeEnded": "2018-04-18 17:10:00"
+}
+
+<> 2018-06-04T072544.200.json
+
+###
+
+GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{
+ "name": "Prog",
+ "timeStarted": "2018-04-18 15:30:00",
+ "timeEnded": "2018-04-18 17:10:00"
+}
+
+<> 2018-06-04T114001.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{
+ "name": "Prog",
+ "timeStarted": "2018-04-18 15:30:00",
+ "timeEnded": "2018-04-18 17:10:00"
+}
+
 <> 2018-06-04T113411.200.json
 
 ###
@@ -580,64 +644,6 @@ Contente-type: application/json
 
 < D:\_Main\Projetos\Pomodoro\test\programacao.wav
 --null--
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
-
-<> 2018-06-04T104147.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
-
-<> 2018-06-04T104130.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
-
-<> 2018-06-04T104106.404.json
 
 ###
 

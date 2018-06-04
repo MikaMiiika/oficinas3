@@ -33,7 +33,9 @@ def getActivitiesTime(userID, start, end):
     actList = []
 
     for a in activitiesName:
-        actList.append(getActivityTime(userID, a, start, end))
+        act = getActivityTime(userID, a, start, end)
+        if act is not None:
+            actList.append(act)
 
     #actListOrdered = sorted(actList, key=itemgetter('sum'), reverse=True)
     return actList
