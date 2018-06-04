@@ -12,8 +12,8 @@ def getActivityTime(userID, name, start, end):
 
             cur = activities.aggregate([{'$match': {'name': name,
                                                     'userID': userID,
-                                                    'timeStarted': {'$gt': start},
-                                                    'timeEnded': {'$lt': end}}},
+                                                    'timeStartedInt': {'$gt': start},
+                                                    'timeEndedInt': {'$lt': end}}},
                                         {'$group': {'_id': '$name',
                                                     'sum': {'$sum': '$timeSpent'}}}])
         else:

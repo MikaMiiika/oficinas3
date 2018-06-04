@@ -50,6 +50,6 @@ class Activity(Schema):
     def fixTimes(self, item):
         item['timeStartedInt'] = timeToTimestamp(item['timeStarted'])
         item['timeEndedInt'] = timeToTimestamp(item['timeEnded'])
-        item['timeSpent'] = item['timeEnded'] - item['timeStarted']
+        item['timeSpent'] = item['timeEndedInt'] - item['timeStartedInt']
         return item
 
