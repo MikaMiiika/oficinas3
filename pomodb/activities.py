@@ -29,7 +29,6 @@ def getActivityTime(userID, name, start, end):
 def getActivitiesTime(userID, start, end):
     activities = mongo.db.activities
     activitiesName = activities.distinct('name')
-    print(activitiesName)
     actList = []
 
     for a in activitiesName:

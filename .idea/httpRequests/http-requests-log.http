@@ -1,3 +1,267 @@
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2017-07-03&ended3=2017-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T032622.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2017-07-03&ended3=2017-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T032538.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T032450.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T032405.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T032144.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T032023.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T031553.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T031414.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T031237.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-06-01&ended1=2018-07-02&started2=2018-07-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T031132.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-06-01&ended1=2018-07-02&started2=2018-07-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T030325.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T030236.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T030204.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-05T030154.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Authorization: Basic Basic Y2Fzc29sOm9maWNpbmFzMw==
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-06-05T030133.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+<> 2018-06-05T030015.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+<> 2018-06-05T025944.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+<> 2018-06-05T025922.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activity
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+<> 2018-06-05T025731.200.json
+
+###
+
 GET http://127.0.0.1:5000/api/activity
 Accept: */*
 Cache-Control: no-cache
@@ -332,318 +596,6 @@ Content-Type: application/json
 }
 
 <> 2018-06-04T111147.500.html
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{
-"_id": "brendon",
-"password": "brendon"
-}
-
-<> 2018-06-04T110913.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-Content-body: {"_id": "brendon"}
-
-<> 2018-06-04T110749.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon"}
-
-<> 2018-06-04T110722.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon"}
-
-<> 2018-06-04T110717.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-"{"_id": "brendon"}"
-
-<> 2018-06-04T110704.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-"{"_id": "brendon"}"
-
-<> 2018-06-04T110630.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-"{"_id": "brendon"}"
-
-<> 2018-06-04T110558.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-"{"_id": "brendon"}"
-
-<> 2018-06-04T110538.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-"{"_id": "brendon"}"
-
-<> 2018-06-04T110519.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
-
-<> 2018-06-04T110045.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
-
-<> 2018-06-04T110027.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-"{"_id": "brendon"}"
-
-<> 2018-06-04T110014.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-Authorization: Basic bWlrYTptaWth
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
-
-<> 2018-06-04T105921.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users%20{"_id":%20"brendon"}
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-'{"_id": "brendon"}'
-
-<> 2018-06-04T105719.404.json
-
-###
-
-GET http://127.0.0.1:5000/index
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon"}
-
-<> 2018-06-04T105650.200.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon"}
-
-<> 2018-06-04T105550.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon"}
-
-<> 2018-06-04T105349.404.json
-
-###
-
-POST http://127.0.0.1:5000/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon"}
-
-<> 2018-06-04T105209.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon"}
-
-<> 2018-06-04T104955.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon", "password": "brendon"}
-
-<> 2018-06-04T104930.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
-{"_id": "brendon", "password": "brendon"}
-
-<> 2018-06-04T104747.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
- {"_id": "cassol", "password": "oficinas3"}
-
-<> 2018-06-04T104734.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
- {"_id": "cassol", "password": "oficinas3"}
-
-<> 2018-06-04T104710.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
- {"_id": "cassol", "password": "oficinas3"}
-
-<> 2018-06-04T104603.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
- {"_id": "cassol", "password": "oficinas3", "email": "matheus_cassol@hotmail.com"}
-
-<> 2018-06-04T104536.404.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Contente-type: application/json
-
---null
-
-
-< D:\_Main\Projetos\Pomodoro\test\programacao.wav
---null--
 
 ###
 
