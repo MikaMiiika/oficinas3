@@ -1,3 +1,151 @@
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-05T040406.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-05T040354.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-05T040345.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+###
+
+GET http://127.0.0.1:5000/api/login?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+<> 2018-06-05T040156.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/login?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+<> 2018-06-05T040141.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
+
+<> 2018-06-05T040140.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-05T040043.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-05T040001.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-05T035947.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOk9maWNpbmFzMw==
+
+<> 2018-06-05T035926.403.json
+
+###
+
+GET http://127.0.0.1:5000/api/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOmVycm8=
+
+<> 2018-06-05T035906.403.json
+
+###
+
 GET http://127.0.0.1:5000/api/activity?started=2018-05-01&ended=2018-06-02
 Accept: */*
 Cache-Control: no-cache
@@ -335,239 +483,6 @@ Authorization: Basic bWlrYTptaWth
 {  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
 
 <> 2018-06-05T025731.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T073018.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T072829.200.json
-
-###
-
-GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T072544.200.json
-
-###
-
-GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T114001.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T113411.200.json
-
-###
-
-POST http://127.0.0.1:5000/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T113359.200.json
-
-###
-
-POST http://127.0.0.1:5000/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T113301.500.html
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T113201.500.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T113026.500.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T112825.500.json
-
-###
-
-GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T112818.200.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T112755.500.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{
-"userID": "mika",
- "name": "Prog",
- "timeStarted": "2018-04-18 15:30:00",
- "timeEnded": "2018-04-18 17:10:00"
-}
-
-<> 2018-06-04T112743.500.json
-
-###
-
-GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-<> 2018-06-04T112719.200.json
-
-###
-
-POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{
-"_id": "mika",
-"password": "mika"
-}
-
-<> 2018-06-04T112626.200.json
 
 ###
 
