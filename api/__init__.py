@@ -1,4 +1,4 @@
-from flask import Flask, g
+from flask import Flask, g, make_response
 from flask_restful import Api
 from flask_httpauth import HTTPBasicAuth
 from passlib.apps import custom_app_context as pwd_context
@@ -23,6 +23,12 @@ def verify_password(username, password):
         return False
     g.user = user
     return True
+
+@auth.error_handler
+def unauthorized():
+    # return 403 instead of 401 to prevent browsers from displaying the default
+    # auth dialog
+    abort(403, message='Unauthorized access')
 
 from .activitiesAPI import *
 from .activityAPI import *

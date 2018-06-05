@@ -1,3 +1,0 @@
-{
-  "message": "User already exists. You have requested this URI [/api/users] but did you mean /api/users or /api/users/<user_id> or /api/userfield/<field> ?"
-}
