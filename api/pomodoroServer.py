@@ -1,8 +1,8 @@
 import socket
 import threading
 import json
+from api import WAVUtil
 from http.server import BaseHTTPRequestHandler, HTTPServer
-
 
 def getJSON(jsonInBytes):
     jsonObject = ""
@@ -19,7 +19,7 @@ def getJSON(jsonInBytes):
 def getMainSocket():
     host = socket.gethostname()
     # host = '127.0.0.1'
-    port = 80
+    port = 8080
 
     print("Hostname: " + host)
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -61,10 +61,18 @@ class Handler(BaseHTTPRequestHandler):
         print("Entrou POST")
         content_length = int(self.headers['Content-Length'])
         data = self.rfile.read(content_length)
-
         jsonObject = getJSON(data)
-
         print("Conteúdo recebido: " + str(jsonObject))
+
+        if self.path == '/pomodoroSound':
+            self.set_sucess_header()
+            self.wfile.write(bytes("<html><body><h1>Teste Sound POST OK</h1></body></html>", "utf-8"))
+            return
+            # bytesSound = jsonObject['bytes_sound']
+            # taskName = jsonObject['task_name']
+            # pomodoroId = jsonObject['pomodoro_id']
+            # soundName = pomodoroId + "." + taskName
+            # wavFile = WAVUtil.bytesToWAV(bytesSound, soundName)
 
 
 class Thread(threading.Thread):
