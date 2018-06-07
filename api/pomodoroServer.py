@@ -19,7 +19,7 @@ def getJSON(jsonInBytes):
 def getMainSocket():
     host = socket.gethostname()
     # host = '127.0.0.1'
-    port = 8080
+    port = 8081
 
     print("Hostname: " + host)
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -95,7 +95,6 @@ class Thread(threading.Thread):
         print("aqui 3")
 
 
-print(__name__)
-if __name__ == '__main__':
+def run():
     host_port, sock = getMainSocket()
     Thread(host_port, sock)

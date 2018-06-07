@@ -28,18 +28,10 @@ class PomodoroServerAPI(Resource):
 
     def get(self):
         print("Entrou GET")
-        print(self.path)
-
-        if self.path == '/':
-            print("<html><body><h1>Oláaaaaaa</h1></body></html>")
-            self.set_sucess_header()
-            self.wfile.write(bytes("<html><body><h1>Oláaaaaaa</h1></body></html>", "utf-8"))
-            return
-
-        if self.path == '/error':
-            # 404: Codigo padrao de resposta para o erro 'Object Not Found'
-            self.send_error(404, "Object not found.")
-            return
+        print("<html><body><h1>Oláaaaaaa</h1></body></html>")
+        self.set_sucess_header()
+        self.wfile.write(bytes("<html><body><h1>Oláaaaaaa</h1></body></html>", "utf-8"))
+        return
 
 
     def post(self):
@@ -49,12 +41,11 @@ class PomodoroServerAPI(Resource):
         jsonObject = self.getJSON(data)
         print("Conteúdo recebido: " + str(jsonObject))
 
-        if self.path == '/pomodoroSound':
-            self.set_sucess_header()
-            self.wfile.write(bytes("<html><body><h1>Teste Sound POST OK</h1></body></html>", "utf-8"))
-            return
-            # bytesSound = jsonObject['bytes_sound']
-            # taskName = jsonObject['task_name']
-            # pomodoroId = jsonObject['pomodoro_id']
-            # soundName = pomodoroId + "." + taskName
-            # wavFile = WAVUtil.bytesToWAV(bytesSound, soundName)
+        self.set_sucess_header()
+        self.wfile.write(bytes("<html><body><h1>Teste Sound POST OK</h1></body></html>", "utf-8"))
+        return
+        # bytesSound = jsonObject['bytes_sound']
+        # taskName = jsonObject['task_name']
+        # pomodoroId = jsonObject['pomodoro_id']
+        # soundName = pomodoroId + "." + taskName
+        # wavFile = WAVUtil.bytesToWAV(bytesSound, soundName)
