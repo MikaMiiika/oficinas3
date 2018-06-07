@@ -96,5 +96,6 @@ class Thread(threading.Thread):
 
 
 def run():
+    print("Run PomodoroServer")
     host_port, sock = getMainSocket()
     Thread(host_port, sock)

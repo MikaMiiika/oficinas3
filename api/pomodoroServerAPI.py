@@ -21,29 +21,17 @@ class PomodoroServerAPI(Resource):
 
         return jsonObject
 
-    def set_sucess_header(self):
-        self.send_response(200)
-        self.send_header('Content-type', 'text/html; charset=utf-8')
-        self.end_headers()
-
     def get(self):
         print("Entrou GET")
         print("<html><body><h1>Oláaaaaaa</h1></body></html>")
-        self.set_sucess_header()
-        self.wfile.write(bytes("<html><body><h1>Oláaaaaaa</h1></body></html>", "utf-8"))
-        return
+        return "<html><body><h1>Oláaaaaaa</h1></body></html>"
 
 
     def post(self):
         print("Entrou POST")
-        content_length = int(self.headers['Content-Length'])
-        data = self.rfile.read(content_length)
-        jsonObject = self.getJSON(data)
-        print("Conteúdo recebido: " + str(jsonObject))
-
-        self.set_sucess_header()
-        self.wfile.write(bytes("<html><body><h1>Teste Sound POST OK</h1></body></html>", "utf-8"))
-        return
+        json = request.get_json()
+        print("Conteúdo recebido: " + str(json))
+        return "POST OK"
         # bytesSound = jsonObject['bytes_sound']
         # taskName = jsonObject['task_name']
         # pomodoroId = jsonObject['pomodoro_id']
