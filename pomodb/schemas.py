@@ -7,7 +7,7 @@ class User(Schema):
     password = fields.Str(required=True)
     email = fields.Email()
     pomoID = fields.Str()
-    useSpeech = fields.Bool(default=True)
+    useSpeech = fields.Bool(default=True, missing=True)
     faces = fields.List(fields.Str())
 
     @validates_schema(pass_original=True)

@@ -1,3 +1,71 @@
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "mika",
+    "password": "mika",
+    "email":"mika@mika.com",
+    "pomoID": "mikapomo"
+}
+
+<> 2018-06-07T054156.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "mika",
+    "password": "mika",
+    "email":"mika@mika.com",
+    "pomoID": "mikapomo"
+}
+
+<> 2018-06-07T052255.200.json
+
+###
+
+PUT http://127.0.0.1:5000/api/userfield/useSpeech
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+"True"
+
+<> 2018-06-07T050915.200.json
+
+###
+
+PUT http://127.0.0.1:5000/api/userfield/useSpeech
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+"False"
+
+<> 2018-06-07T050617.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/userfield/useSpeech
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+"False"
+
+<> 2018-06-07T050606.405.json
+
+###
+
 DELETE http://127.0.0.1:5000/api/activity/Prog
 Accept: */*
 Cache-Control: no-cache
@@ -463,54 +531,6 @@ Content-Type: application/json
 Authorization: Basic 645
 
 <> 2018-06-05T034954.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started=2018-05-01&ended=2018-06-02
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic 645
-
-<> 2018-06-05T034754.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started=2018-05-01&ended=2018-06-02
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T032944.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started=2018-05-01&ended=2018-06-02
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2017-07-03&ended3=2017-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T032622.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2017-07-03&ended3=2017-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T032538.200.json
 
 ###
 
