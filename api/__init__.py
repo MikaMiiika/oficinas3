@@ -30,6 +30,7 @@ def unauthorized():
     # auth dialog
     abort(403, message='Unauthorized access')
 
+from .activityListAPI import *
 from .activitiesAPI import *
 from .activityAPI import *
 from .userAPI import *
@@ -55,4 +56,5 @@ api.add_resource(UserAPI,           '/api/users/<user_id>')
 api.add_resource(UserFieldAPI,      '/api/userfield/<field>')
 api.add_resource(ActivitiesAPI,     '/api/activity')
 api.add_resource(ActivityAPI,       '/api/activity/<activity_name>')
+api.add_resource(ActivityListAPI,   '/api/activitylist')
 api.add_resource(PomodoroServerAPI, '/api/pomodoroserver')

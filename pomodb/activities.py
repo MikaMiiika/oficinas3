@@ -38,3 +38,12 @@ def getActivitiesTime(userID, start, end):
 
     #actListOrdered = sorted(actList, key=itemgetter('sum'), reverse=True)
     return actList
+
+def getActivityList(userID):
+    activities = mongo.db.activities
+    activitiesName = activities.distinct('name')
+    return activitiesName
+
+def deleteActivity(userID, activity):
+    activities = mongo.db.activities
+    activities.remove({'userID': userID, 'name': activity})

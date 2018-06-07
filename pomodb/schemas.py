@@ -7,6 +7,7 @@ class User(Schema):
     password = fields.Str(required=True)
     email = fields.Email()
     pomoID = fields.Str()
+    useSpeech = fields.Bool(default=True)
     faces = fields.List(fields.Str())
 
     @validates_schema(pass_original=True)
@@ -53,3 +54,11 @@ class Activity(Schema):
         item['timeSpent'] = item['timeEndedInt'] - item['timeStartedInt']
         return item
 
+class ActivityList(Schema):
+    activities = fields.List(fields.Str())
+
+    @validates_schema(pass_original=True)
+    def check_unknown_fields(self, data, original_data):
+        unknown = set(original_data) - set(self.fields)
+        if unknown:
+            return ValidationError('Unknown field', unknown)

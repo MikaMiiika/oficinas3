@@ -1,3 +1,275 @@
+DELETE http://127.0.0.1:5000/api/activity/Prog
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T040946.200.json
+
+###
+
+DELETE http://127.0.0.1:5000/api/activity/Prog
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T040834.200.json
+
+###
+
+DELETE http://127.0.0.1:5000/api/activity/Prog
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T040831.200.json
+
+###
+
+DELETE http://127.0.0.1:5000/api/activity/Prog
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+DELETE http://127.0.0.1:5000/api/activity/Prog
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T040604.200.json
+
+###
+
+DELETE http://127.0.0.1:5000/api/activity/Prog
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+DELETE http://127.0.0.1:5000/api/activity/Prog
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+POST http://127.0.0.1:5000/api/activity
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+{
+ "name": "Prog",
+ "timeStarted": "2018-04-18 15:30:00",
+ "timeEnded": "2018-04-18 17:10:00"
+}
+
+<> 2018-06-07T040304.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T035629.200.json
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T035428.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T035421.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T035123.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T035104.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T034945.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T034908.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T034906.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+<> 2018-06-07T034829.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOk9maWNpbmFzMw==
+
+<> 2018-06-07T034758.403.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "mika",
+    "password": "mika",
+    "email":"mika@mika.com",
+    "pomoID": "mikapomo"
+}
+
+<> 2018-06-07T034659.404.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "mika",
+    "password": "mika",
+    "email":"mika@mika.com",
+    "pomoID": "mikapomo"
+}
+
+<> 2018-06-07T034647.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "mika",
+    "password": "mika",
+    "email":"mika@mika.com"
+    "pomoID": "mikapomo"
+}
+
+<> 2018-06-07T034636.400.json
+
+###
+
+POST http://127.0.0.1:5000/api/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "mika",
+    "password": "mika",
+    "email":"mika@mika.com"
+    "pomoID": "mikapomo"
+}
+
+<> 2018-06-07T034630.404.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-07T034349.500.html
+
+###
+
+GET http://127.0.0.1:5000/api/activitylist
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic bWlrYTptaWth
+
+<> 2018-06-07T034155.500.html
+
+###
+
 GET http://127.0.0.1:5000/api/login
 Accept: */*
 Cache-Control: no-cache
@@ -239,250 +511,6 @@ Content-Type: application/json
 Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
 
 <> 2018-06-05T032538.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T032450.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T032405.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-07-03&started3=2018-07-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T032144.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T032023.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T031553.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T031414.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T031237.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-05-01&ended1=2018-06-02&started2=2018-06-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-06-01&ended1=2018-07-02&started2=2018-07-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T031132.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-06-01&ended1=2018-07-02&started2=2018-07-02&ended2=2018-08-03&started3=2018-08-03&ended3=2018-09-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T030325.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T030236.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T030204.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-<> 2018-06-05T030154.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Authorization: Basic Basic Y2Fzc29sOm9maWNpbmFzMw==
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-06-05T030133.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-<> 2018-06-05T030015.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-<> 2018-06-05T025944.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-<> 2018-06-05T025922.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/activity
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-<> 2018-06-05T025731.200.json
 
 ###
 

@@ -23,3 +23,8 @@ class ActivityAPI(Resource):
         else:
             ended = "ALL"
         return getActivityTime(userID, activity_name, started, ended)
+
+    def delete(self, activity_name):
+        userID = g.user['_id']
+        deleteActivity(userID, activity_name)
+        return {'message': 'Activity ' + activity_name + ' delete successfully'}, 200
