@@ -62,5 +62,4 @@ def main():
     # t = bytesToWAV(lista, 'teste2')
     # print(t)
 
-
 main()

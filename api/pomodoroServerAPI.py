@@ -5,6 +5,7 @@ from utils import timestamp as t
 from api import WAVUtil
 import json
 
+
 class PomodoroServerAPI(Resource):
 
     def __init__(self):
