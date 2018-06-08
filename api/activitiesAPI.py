@@ -2,6 +2,7 @@ from flask import request
 from flask_restful import Resource, reqparse
 from pomodb import *
 from utils import timestamp as t
+import time
 
 class ActivitiesAPI(Resource):
     decorators = [auth.login_required]
@@ -78,12 +79,17 @@ class ActivitiesAPI(Resource):
 
     def post(self):
         json = request.get_json()
-        print(json)
+        timeEnded = str(time.time()).split('.')[0]
+
+        a = {}
+        a['userID'] = g.user['_id']
+        a['name'] = getFaceName(a['userID'], json['faceID'])
+        a['timeEndedInt'] = int(timeEnded)
+        a['timeStartedInt'] = int(timeEnded) - int(json['delta'])
         act = Activity()
-        json['userID'] = g.user['_id']
 
         try:
-            act = act.load(json)
+            act = act.load(a)
             insert('activities', **act)
         except ValidationError as e:
             abort(404, message='These fields are wrong: ' + str(e))

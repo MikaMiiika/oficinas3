@@ -12,6 +12,10 @@ def selectUser(**fields):
     return "Error: Pomodoro doesn't exists"
 
 
+def getFaceName(userID, faceID):
+    user = selectUser(_id=userID)
+    return user['faces'][faceID]
+
 def hashPassword(password):
     hash = pwd_context.encrypt(password)
     return hash

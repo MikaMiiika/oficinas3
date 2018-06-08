@@ -33,8 +33,8 @@ class Activity(Schema):
     _id = fields.Str()
     userID = fields.Str(required=True)
     name = fields.Str(required=True)
-    timeStarted = fields.Str(required=True)
-    timeEnded = fields.Str(required=True)
+    timeStarted = fields.Str()
+    timeEnded = fields.Str()
 
     timeStartedInt = fields.Int()
     timeEndedInt = fields.Int()
@@ -49,8 +49,8 @@ class Activity(Schema):
 
     @post_load
     def fixTimes(self, item):
-        item['timeStartedInt'] = timeToTimestamp(item['timeStarted'])
-        item['timeEndedInt'] = timeToTimestamp(item['timeEnded'])
+        #item['timeStartedInt'] = timeToTimestamp(item['timeStarted'])
+        #item['timeEndedInt'] = timeToTimestamp(item['timeEnded'])
         item['timeSpent'] = item['timeEndedInt'] - item['timeStartedInt']
         return item
 
