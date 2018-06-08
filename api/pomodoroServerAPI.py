@@ -39,9 +39,9 @@ class PomodoroServerAPI(Resource):
         hexString = json['audio']
         frequencia = json['frequencia']
         faceID = json['faceID']
-        fullFileName = "" + frequencia + faceID
+        fullFileName = str(frequencia) + "." + str(faceID)
         filePath = WAVUtil.criarArquivoWAV(hexString, frequencia, fullFileName)
         activityName = convertSpeech.ConvertSpeech(filePath)
 
         # updateOne('users', user_id, **dict([(field, json)]))
-        return "POST OK"
+        return activityName
