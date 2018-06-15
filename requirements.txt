@@ -7,3 +7,5 @@ SpeechRecognition
 marshmallow == 3.0.0b10
 passlib
 unidecode
+pytz
+datetime

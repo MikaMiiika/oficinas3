@@ -1,3 +1,103 @@
+GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity?started1=2017-06-19&ended1=2017-10-16&started2=2017-10-17&ended2=2018-02-13&started3=2018-02-14&ended3=2018-06-17
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+{"1": "Programando"}
+
+<> 2018-06-14T102307.200.json
+
+###
+
+GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity?started1=2017-06-19&ended1=2017-10-16&started2=2017-10-17&ended2=2018-02-13&started3=2018-02-14&ended3=2018-06-17
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+{"1": "Programando"}
+
+<> 2018-06-14T102301.200.json
+
+###
+
+GET http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/activity?started1=2017-06-19&ended1=2017-10-16&started2=2017-10-17&ended2=2018-02-13&started3=2018-02-14&ended3=2018-06-15
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Basic Y2Fzc29sOm9maWNpbmFzMw==
+
+{"1": "Programando"}
+
+<> 2018-06-14T102150.200.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "cassol",
+    "password": "oficinas3",
+    "email":"cassol@cassol.com",
+    "pomoID": "pomo",
+    "faces": ["Programando", "Estudando", "Dormindo", "Video Game", "Cafe", "Almoco", "Desenhando"]
+}
+
+<> 2018-06-14T084045.200.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "cassol",
+    "password": "oficinas3",
+    "email":"cassol@cassol.com",
+    "pomoID": "pomo"
+    "faces": ["Programando", "Estudando", "Dormindo", "Video Game", "Cafe", "Almoco", "Desenhando"]
+}
+
+<> 2018-06-14T084030.400.json
+
+###
+
+POST http://smartpomodoro-backend2-smartpomodoro.1d35.starter-us-east-1.openshiftapps.com/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "cassol",
+    "password": "oficinas3",
+    "email":"cassol@cassol.com",
+    "pomoID": "pomo"
+}
+
+<> 2018-06-13T010015.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "_id": "cassol",
+    "password": "oficinas3",
+    "email":"cassol@cassol.com",
+    "pomoID": "pomo"
+}
+
+###
+
 POST http://127.0.0.1:5000/api/activity
 Accept: */*
 Cache-Control: no-cache
@@ -514,74 +614,6 @@ Content-Type: application/json
 Authorization: Basic bWlrYTptaWth
 
 <> 2018-06-05T040345.200.json
-
-###
-
-GET http://127.0.0.1:5000/api/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-###
-
-GET http://127.0.0.1:5000/api/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-###
-
-GET http://127.0.0.1:5000/api/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-###
-
-GET http://127.0.0.1:5000/api/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-###
-
-GET http://127.0.0.1:5000/api/login?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-<> 2018-06-05T040156.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/login?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-<> 2018-06-05T040141.500.html
-
-###
-
-GET http://127.0.0.1:5000/api/activity?started1=2018-01-01&ended1=2018-01-02&started2=2018-01-02&ended2=2018-01-03&started3=2018-01-03&ended3=2018-01-04
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-Authorization: Basic bWlrYTptaWth
-
-{  "name": "Prog",  "timeStarted": "2018-04-18 15:30:00",  "timeEnded": "2018-04-18 17:10:00" }
-
-<> 2018-06-05T040140.200.json
 
 ###
 

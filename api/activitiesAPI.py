@@ -16,7 +16,7 @@ class ActivitiesAPI(Resource):
         if started1 is not None:
             started1 = started1 + " 00:00:00"
             ended1 = request.args.get('ended1')
-            ended1 = ended1 + " 00:00:00"
+            ended1 = ended1 + " 23:59:59"
             act1 = getActivitiesTime(userID, started1, ended1)
 
             for a1 in act1:
@@ -25,7 +25,7 @@ class ActivitiesAPI(Resource):
             started2 = request.args.get('started2')
             started2 = started2 + " 00:00:00"
             ended2 = request.args.get('ended2')
-            ended2 = ended2 + " 00:00:00"
+            ended2 = ended2 + " 23:59:59"
             act2 = getActivitiesTime(userID, started2, ended2)
 
             for a2 in act2:
@@ -44,7 +44,7 @@ class ActivitiesAPI(Resource):
             started3 = request.args.get('started3')
             started3 = started3 + " 00:00:00"
             ended3 = request.args.get('ended3')
-            ended3 = ended3 + " 00:00:00"
+            ended3 = ended3 + " 23:59:59"
             act3 = getActivitiesTime(userID, started3, ended3)
             print(act3)
 
@@ -72,7 +72,7 @@ class ActivitiesAPI(Resource):
 
             ended = request.args.get('ended')
             if ended is not None:
-                ended = ended + " 00:00:00"
+                ended = ended + " 23:59:59"
             else:
                 ended = "ALL"
             return getActivitiesTime(userID, started, ended)
@@ -85,7 +85,7 @@ class ActivitiesAPI(Resource):
         a['userID'] = g.user['_id']
         a['name'] = getFaceName(a['userID'], json['faceID'])
         a['timeEndedInt'] = int(timeEnded)
-        a['timeStartedInt'] = int(timeEnded) - int(json['delta'])
+        a['timeStartedInt'] = int(timeEnded) - int(json['delta']/1000)
         act = Activity()
 
         try:
